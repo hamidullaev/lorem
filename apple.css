@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(44, 223, 44);
+}
+.card{
+    width: 300px;
+    height: 430px;
+    display: flex;
+    background: white;
+    border-radius: 6px;
+    transition: .5s;
+    padding-top: 30px;
+    position: relative;
+}
+.card:hover{
+    width: 600px;
+}
+.image_container{
+    width: 270px;
+    height: 360px;
+    background: yellow;
+    margin: auto;
+    border-radius: 6px;
+    transition: .8s;
+    margin-left: 15px;
+    box-shadow: 0 0 25px #9999;
+}
+.card:hover .image_container{
+    margin-left: -60px;
+}
+
+.apple{
+    width: 100%;
+    margin-left: 0px;
+    transition: .8s;
+}
+.card:hover .apple{
+    margin-left: -60px;
+}
+.image_grid{
+    display: flex;
+}
+.image_grid div{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 15px #9999;
+    border-radius: 6px;
+    margin: 4px;
+}
+.image_grid img{
+    width: 100%;
+}
+.card_text h1{
+    color: crimson;
+    padding: 12px 0;
+    font-weight: 100;
+}
+.card_text ul{
+    color: gray;
+    padding: 16px;
+    line-height: 1.5;
+}
+
+.btn{
+    padding: 8px 24px;
+    background-color: crimson;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+}
+
+.card_text{
+     position: absolute;
+     top: 30px;
+     right: -100px;
+     transform: scale(0);
+}
+.card:hover .card_text{
+    transform: scale(1);
+    transition: .8s;
+    transition: .8s;
+    right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

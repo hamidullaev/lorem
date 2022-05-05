@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+    transition: .5s;
+}
+.box:hover{
+    /* translate -->elementni surish uchun */
+    /* transform: translateY pastga (50px);*/
+    /* transform: translateX yonga(50px) */
+    /* transform:translate(50px, 50px); */
+    /* transform: rotate(180deg); */
+
+    /* transform: skewX(35deg); */
+    /* transform: skewY(35deg); */
+
+    /* transform: scaleY(1.5); */
+    /* transform: scaleX(2.5); */
+    /* transform: scale(1.5) translateY(100px) rotate(45deg); */
+    /* transform: rotateX(180deg); */
+
+    /* transform: perspective(300px) rotateY(-45deg); */
+}
+
+
+
+
+
+
+
+
+
